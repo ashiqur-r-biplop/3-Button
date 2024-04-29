@@ -1,0 +1,69 @@
+body {
+  background-color: #00123e;
+}
+/* outline button */
+.outline-btn {
+  background-color: #00123e;
+  font-size: 18px;
+  color: #fff;
+  padding: 15px 30px;
+  outline: none;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+.outline-btn:hover {
+  background-color: #fff;
+  color: #00123e;
+  transition: 0.2s ease-in-out;
+}
+/*  normal button */
+.normal-btn {
+  background-color: rgba(16, 119, 239, 0.996);
+  font-size: 18px;
+  color: #fff;
+  padding: 15px 60px;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 13px 4px rgba(16, 119, 239, 0.75);
+  -webkit-box-shadow: 0px 0px 13px 4px rgba(16, 119, 239, 0.75);
+  -moz-box-shadow: 0px 0px 13px 4px rgba(16, 119, 239, 0.75);
+  transition: all 0.3s ease-in-out;
+}
+.normal-btn:hover {
+  background-color: rgba(4, 101, 211, 0.996);
+  box-shadow: 0px 0px 13px 4px rgba(4, 101, 211, 0.996);
+  -webkit-box-shadow: 0px 0px 13px 4px rgba(4, 101, 211, 0.996);
+  -moz-box-shadow: 0px 0px 13px 4px rgba(4, 101, 211, 0.996);
+}
+/*  normal button */
+.gradient-btn {
+    font-size: 18px;
+    color: #fff;
+    padding: 15px 60px;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  
+    background: linear-gradient(
+      60deg,
+      rgba(254, 87, 7, 1) 0%,
+      rgba(233, 44, 128, 1) 35%,
+      rgba(213, 3, 246, 1) 100%
+    );
+    transition: background 1.5s ease-in-out; /* Apply transition to background */
+  }
+  
+  .gradient-btn:hover {
+    background: linear-gradient(
+      60deg,
+      rgba(213, 3, 246, 1) 0%,
+      rgba(233, 44, 128, 1) 35%,
+      rgba(254, 87, 7, 1) 100%
+    );
+  }
+  
